@@ -16,14 +16,41 @@ WIP:
 
     const EmailChecker = require('comprehensive-email-checker');
 
-    EmailChecker.validate('email@example.com').then((result) => {
-
-    })
+    EmailChecker.validate('example1@gmail.com').then((result) => {
+        /**
+        {
+            isValid: true,
+            isDisposableAddress: false,
+            suggestion: null
+        }
+        **/
+    });
 
 
 ## API
 
 ### validate(address, options)
+
+Return a promise that resolves with a results object containing.
+If the syntax of the email was not valid, then none of the other tests will run and the results object will be:
+
+```
+{
+    isValid: false,
+    suggestion: null,
+    isDisposableAddress: null
+}
+```json
+
+If the syntax is valid, then the results object will be:
+
+```
+{
+    isValid: true
+    suggestion: An email address (string) if there is a suggestion or null if there is not
+    isDisposableAddress: true/false this is a disposable address
+}
+```json
 
 #### address
 
