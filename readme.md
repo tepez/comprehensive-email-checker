@@ -1,5 +1,6 @@
-# comprehensive-email-checker
-A comprehensive checker for email addresses:
+# comprehensive-email-checker [![Build Status](https://travis-ci.org/tepez/comprehensive-email-checker.svg?branch=master)](https://travis-ci.org/tepez/comprehensive-email-checker)
+
+> A comprehensive checker for email addresses
 
 Currently checks:
 
@@ -9,8 +10,8 @@ Currently checks:
 
 WIP:
 
-1. Specific grammars of some email providers - some ESPs have their own set of rules, e.g. tom@gmail.com cannot be a valid email address. Test using [tepez/email-grammar-test](https://github.com/tepez/email-grammar-test).
-1. DNS -
+1. Specific grammars of some email providers - some ESPs have their own set of rules, e.g. tom@gmail.com cannot be a valid email address. Test using [tepez/comprehensive-email-checker](https://github.com/tepez/comprehensive-email-checker).
+1. DNS
 
 ## Usage
 
