@@ -1,0 +1,30 @@
+{
+  "name": "comprehensive-email-checker",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node spec/runSpecs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tepez/comprehensive-email-checker.git"
+  },
+  "author": "Tom Tepez Yam <tomyam@tepez.co.il> (https://github.com/tepez)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tepez/comprehensive-email-checker/issues"
+  },
+  "homepage": "https://github.com/tepez/comprehensive-email-checker#readme",
+  "dependencies": {
+    "isemail": "^3.0.0",
+    "mailcheck": "^1.1.1",
+    "mailchecker": "^3.0.27"
+  },
+  "devDependencies": {
+    "bluebird": "^3.5.0",
+    "jasmine": "^2.7.0",
+    "jasmine-reporters": "^2.2.1",
+    "jasmine-spec-reporter": "^4.1.1"
+  }
+}
